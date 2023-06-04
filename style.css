@@ -8,6 +8,17 @@ p {
   margin: 0;
 }
 
+h1 {
+  background-color: #f49042;
+  color: #333333;
+}
+
+h2 {
+  background-color: #4286f4;
+  color: white;
+  padding: 5px 20px;
+}
+
 body > p > a:first-child {
   color: #038c7f;
 }
@@ -25,6 +36,10 @@ body > p > a:last-child:visited {
 .script {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.script {
+  margin: 5vh auto;
 }
 
 #app h1 {
