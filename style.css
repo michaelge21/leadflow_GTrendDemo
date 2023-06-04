@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body > p > a:first-child {
+  color: #038c7f;
+}
+
+body > p > a:first-child:visited {
+  color: #038c7f;
+}
+
+body > p > a:last-child:visited {
+  color: rgb(60, 141, 235);
+}
+
+#app,
+.use-cases,
+.script {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#app h1 {
+  text-align: center;
+}
+
+.use-cases section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 120px 1fr;
+  gap: 10px;
+}
+
+.clients div {
+  padding: 25px;
+  font-size: calc(0.5vw + 0.5vh + 0.2rem);
+}
+
+.clients > h3 + div {
+  grid-column: 1 / 1;
+  grid-row: 2 / 4;
+  border: #6bb87d 4px solid;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+.clients > h3 + div + div {
+  grid-column: 2/4;
+  grid-row: 2 / 3;
+  border: #6bb87d 2px solid;
+  border-radius: 5px;
+}
+
+.clients > h3 + div + div + div {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border: #facd93 2px solid;
+  border-radius: 5px;
+}
+
+.clients > h3 + div + div + div + div {
+  grid-column: 3;
+  grid-row: 3/4;
+  border: #b33641 2px solid;
+}
+
+.leadflow div {
+  padding: 25px;
+  font-size: calc(0.5vw + 0.5vh + 0.2rem);
+}
+
+.leadflow > h3 + div {
+  grid-column: 1 / 1;
+  grid-row: 2 / 4;
+  border: #6bb87d 4px solid;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+.leadflow > h3 + div + div {
+  grid-column: 2/4;
+  grid-row: 2 / 3;
+  border: #6bb87d 2px solid;
+  border-radius: 5px;
+}
+
+.leadflow > h3 + div + div + div {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border: #facd93 2px solid;
+  border-radius: 5px;
+}
+
+.leadflow > h3 + div + div + div + div {
+  grid-column: 3;
+  grid-row: 3/4;
+  border: #b33641 2px solid;
+}
